@@ -40,3 +40,30 @@ a {
   font-size: inherit;
   line-height: inherit;
 }
+.page{
+  font-family: var(--page-font-family), sans-serif;
+  font-size: 18px;
+}
+.accented-background{
+  background-color: var(--color-bg-subtitle);
+}
+/*.h2-title{
+  color: var(--color-title-text);
+  font-size: var(--font-size-main);
+}
+.color-fonts-subtitle{
+  color: var(--color-subtitle-text);
+  font-weight: --bold-text;
+  font-size: var(--font-size-main);
+}
+.color-fonts-subtitle-h4{
+  color: var(--color-subtitle-text);
+  font-weight: 400;
+  font-size: var(--font-size-main);
+  margin-top: 20px;
+}
+.bold-black{
+  color: var(--color-subtitle-text);
+  font-size: var(--bold-text);
+  margin-top: 20px;
+} */
