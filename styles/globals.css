@@ -40,13 +40,6 @@ a {
   font-size: inherit;
   line-height: inherit;
 }
-.page{
-  font-family: var(--page-font-family), sans-serif;
-  font-size: 18px;
-}
-.accented-background{
-  background-color: var(--color-bg-subtitle);
-}
 /*.h2-title{
   color: var(--color-title-text);
   font-size: var(--font-size-main);
