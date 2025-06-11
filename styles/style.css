@@ -15,11 +15,19 @@
   font-size: 18px;
 }
 /* header */
+/*h1   XXL   Главный заголовок страницы
+ h2    XL    Основные разделы
+ h3    L     Подразделы 
+ h4    M     Заголовки карточек
+ h5    S     Пункты в сайдбаре 
+ h6    XS    Мелкие подписи                
+*/
 .header {
   display: grid;
   grid-template-rows: auto max-content auto auto;
   align-items: center;
-  min-block-size: 100vh;
+  min-height: max(100vh, 668px);
+  min-block-size: max(100vh, 668px);
 }
 .accented-background {
   background-color: var(--color-bg-subtitle);
@@ -114,7 +122,7 @@
   font-weight: var(--bold-text);
   margin: 53px 10px 66px 10px;
 }
-.size2-title {
+.size-XL-title {
   color: var(--color-title-text);
   font-size: var(--font-size-main);
 }
@@ -123,7 +131,7 @@
   font-weight: --bold-text;
   font-size: var(--font-size-main);
 }
-.color-fonts-subtitle-size4 {
+.color-fonts-subtitle-size-M {
   color: var(--color-subtitle-text);
   font-weight: 400;
   font-size: var(--font-size-main);
@@ -168,7 +176,8 @@
 }
 .footer {
   display: grid;
-  min-height: 100vh;
+  min-height: max(100vh, 668px);
+  min-block-size: max(100vh, 668px);
   position: relative;
 }
 
