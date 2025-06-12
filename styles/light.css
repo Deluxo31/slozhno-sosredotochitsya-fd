@@ -22,10 +22,10 @@
   --color-bg-subtitle: #FF8DCB;
 
   --bg-main-image: url(../images/cover-image-light.png);
-  --bg-main-color: #000028;
+  --bg-main-color: #fff1f7;
 
   /* hover focus*/
-  --color-decoretive-status: #FF007066;
+  --color-decoretive-status: #32312D66;
   
 }
 @media (prefers-color-scheme: light) {
@@ -47,7 +47,7 @@
   --bg-main-color: #fff1f7;
 
   /* hover focus*/
-  --color-decoretive-status: #FF007066;
+  --color-decoretive-status: #32312D66;
   }
 .decorative-rec-icon {
   display: none;
